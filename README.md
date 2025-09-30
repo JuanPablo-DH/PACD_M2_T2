@@ -19,48 +19,61 @@ Programación avanzada para ciencia de datos.
 > *SQLite*
 
 > [!IMPORTANT]
-> ### **Pasos para ejecutar la notebook desde *Visual Studio Code***
-> 
-> **Paso 1** - *Clonar repositorio.*
+> ### **Pasos para ejecutar la notebook desde *Visual Studio Code***  
+> **Paso 1** - *Clonar repositorio.*  
+> - **Comando** → *git clone <url-repositorio>*  
 > ```bash
 >   git clone https://github.com/JuanPablo-DH/PACD_M2_T2.git
 > ```
-> **Paso 2** - *Abrir la terminal del sistema operativo *CMD/SHELL*.*
-> - Ubicarse con el comando **CD** en la carpeta del proyecto *(donde se clonó el repositorio)*.
+> **Paso 2** - *Abrir la terminal del sistema operativo *CMD/SHELL*.*  
+> - Ubicarse con el comando **CD** en la carpeta del proyecto *(donde se clonó el repositorio)*.  
+> **Comando** → *cd "<path_proyecto>"*  
 > ```bash
->   cd "<path_proyecto>" ⇒ cd "C:\user\...\PACD_M2_T2"
+>    cd "C:\user\...\PACD_M2_T2"
 > ```
 > 
-> **Paso 3** - *Crear un entorno virtual *(VENV)* para el proyecto.*
-> - Ejecutar desde la terminal *CMD/SHELL* **ubicada en la carpeta del proyecto**.
+> **Paso 3** - *Crear un entorno virtual *(VENV)* para el proyecto.*  
+> - Ejecutar desde la terminal *CMD/SHELL* **ubicada en la carpeta del proyecto**.   
+> **Comando** → *py -m venv <nombre_env>*  
 > ```bash
->   py -m venv <nombre_env> ⇒ py -m venv venv_M2T2
+>   py -m venv venv_M2T2
 > ```
 > 
-> **Paso 4** - *Activar el *VENV* del proyecto. **¡¡¡ IMPORTANTE !!!***
-> - Windows
+> **Paso 4** - *Activar el *VENV* del proyecto. **¡¡¡ IMPORTANTE !!!***  
+> - Windows  
+> **Comando** → *<nombre_venv>\Scripts\activate*  
 > ```bash
->   <nombre_env>\Scripts\activate ⇒ venv_M2T2\Scripts\activate
+>   venv_M2T2\Scripts\activate
 > ```
-> - Linux
+> - Linux  
+> **Comando** → *<nombre_venv>\bin\activate*  
 > ```bash
->   <nombre_env>\bin\activate ⇒ venv_M2T2\bin\activate
+>   venv_M2T2\bin\activate
 > ```
-> - Para **desactivar** el *VENV* en Windows y Linux
+> - Para **desactivar** el *VENV* en Windows y Linux  
 > ```bash
 >   deactivate
 > ```
 > 
-> **Paso 5** - *Instalar dependencias/módulos.*
-> - Ejecutar desde la terminal *CMD/SHELL* **ubicada en la carpeta del proyecto**.
+> **Paso 5** - *Instalar dependencias/módulos.*  
+> - Ejecutar desde la terminal *CMD/SHELL* **ubicada en la carpeta del proyecto**.  
 > ```bash
 >   pip install -r requirements_vscode.txt
 > ```
-> 
-> **Paso 6** - *Descargar el dataset.*
+>
+> **Paso 6** - *Seleccionar el kernel de la notebook.*
+> - Abrir la carpeta del proyecto con VSCode.
+> - Seleccionar el archivo **notebook_M2T2.ipynb**.
+>   - Hacer click en la opción **"Select Kernel"** *(arriba a la derecha)*.
+>   - Seleccionar la opción **"Python Environments..."**.
+>   - Seleccionar el kernel del VENV **"venv_M2T2 (Python 3.13.7)"**. 
+> ```
+>   Select Kernel ⇒ Python Environments... ⇒ venv_M2T2 (Python 3.13.7)
+> ```
+> **Paso 7** - *Descargar el dataset.*
 > - Una vez descargado el dataset.csv desde Kaggle, **ubicarlo en la carpeta del proyecto**.
 >
-> **Paso 7** - *Explorar la notebook mediante Visual Studio Code*.
+> **Paso 8** - *Explorar la notebook mediante Visual Studio Code*.
 
 > [!NOTE]
 > ### **¿Cómo saber si está activado el *VENV*?**  
@@ -91,9 +104,18 @@ Programación avanzada para ciencia de datos.
 > ```
 
 > [!TIP]
-> ### **Posible solución**  
+> ### **Solución**  
 > Ejecutar desde la terminal *CMD/SHELL* **ubicada en la carpeta del proyecto**.
 > ```bash
 >   Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
 > ```
 > Teóricamente luego de ejecutar el comando, se debería poder activar el *VENV*.
+
+> [!CAUTION]
+> ### **Posible error**  
+> A pesar de haber ejecutado el comando pip install, siguen sin reconocerse los módulos.
+
+> [!TIP]
+> ### **Solución**  
+> Seleccionar el kernel del *VENV* para ejecutar las celdas de código de la notebook.
+> - Se menciona en el **Paso 6**.
