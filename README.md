@@ -62,7 +62,7 @@ Programación avanzada para ciencia de datos.
 > ```
 >
 > **Paso 6** - *Seleccionar el kernel de la notebook.*
-> - Abrir la carpeta del proyecto con VSCode.
+> - Abrir la carpeta del proyecto con **VSCode**.
 > - Seleccionar el archivo **notebook_M2T2.ipynb**.
 >   - Hacer click en la opción **"Select Kernel"** *(arriba a la derecha)*.
 >   - Seleccionar la opción **"Python Environments..."**.
