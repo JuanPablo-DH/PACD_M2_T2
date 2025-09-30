@@ -13,7 +13,7 @@ Programación avanzada para ciencia de datos.
 
 > [!NOTE]
 > ### Dataset  
-> [*https://www.kaggle.com/datasets/khushikyad001/teen-phone-addiction-and-lifestyle-survey*](https://www.kaggle.com/datasets/khushikyad001 teen-phone-addiction-and-lifestyle-survey)
+> [*https://www.kaggle.com/datasets/khushikyad001/teen-phone-addiction-and-lifestyle-survey*](https://www.kaggle.com/datasets/khushikyad001/teen-phone-addiction-and-lifestyle-survey)
 > 
 > ### Motor de base de datos  
 > *SQLite*
