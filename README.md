@@ -21,34 +21,35 @@ Programación avanzada para ciencia de datos.
 > [!IMPORTANT]
 > ### **Pasos para ejecutar la notebook desde *Visual Studio Code***  
 > **Paso 1** - *Clonar repositorio.*  
-> - **Comando** → *git clone <url-repositorio>*  
+> - **Comando** → *git clone [url_repositorio]*  
 > ```bash
 >   git clone https://github.com/JuanPablo-DH/PACD_M2_T2.git
 > ```
 > **Paso 2** - *Abrir la terminal del sistema operativo *CMD/SHELL*.*  
 > - Ubicarse con el comando **CD** en la carpeta del proyecto *(donde se clonó el repositorio)*.  
-> **Comando** → *cd "<path_proyecto>"*  
+> **Comando** → *cd "[path_proyecto]"*  
 > ```bash
 >    cd "C:\user\...\PACD_M2_T2"
 > ```
 > 
 > **Paso 3** - *Crear un entorno virtual *(VENV)* para el proyecto.*  
 > - Ejecutar desde la terminal *CMD/SHELL* **ubicada en la carpeta del proyecto**.   
-> **Comando** → *py -m venv <nombre_env>*  
+> **Comando** → *py -m venv [nombre_env]*  
 > ```bash
 >   py -m venv venv_M2T2
 > ```
 > 
-> **Paso 4** - *Activar el *VENV* del proyecto. **¡¡¡ IMPORTANTE !!!***  
+> **Paso 4** - *Activar el *VENV* del proyecto. **¡¡¡ IMPORTANTE !!!***
+> - Ejecutar desde la terminal CMD/SHELL ubicada en la carpeta del proyecto. 
 > - Windows  
-> **Comando** → *<nombre_venv>\Scripts\activate*  
+> **Comando** → *[nombre_venv]\Scripts\activate*  
 > ```bash
 >   venv_M2T2\Scripts\activate
 > ```
 > - Linux  
-> **Comando** → *<nombre_venv>\bin\activate*  
+> **Comando** → *[nombre_venv]\bin\activate*  
 > ```bash
->   venv_M2T2\bin\activate
+>    venv_M2T2\bin\activate
 > ```
 > - Para **desactivar** el *VENV* en Windows y Linux  
 > ```bash
@@ -56,7 +57,7 @@ Programación avanzada para ciencia de datos.
 > ```
 > 
 > **Paso 5** - *Instalar dependencias/módulos.*  
-> - Ejecutar desde la terminal *CMD/SHELL* **ubicada en la carpeta del proyecto**.  
+> - Ejecutar desde la terminal *CMD/SHELL* **ubicada en la carpeta del proyecto**.
 > ```bash
 >   pip install -r requirements_vscode.txt
 > ```
@@ -82,11 +83,11 @@ Programación avanzada para ciencia de datos.
 > 
 > *VENV* Activado
 > ```bash
->   (venv_M2T2) PS C:\Users\...\PACD_M2_T2> ... <comandos>
+>   (venv_M2T2) PS C:\Users\...\PACD_M2_T2> ... [comandos]
 > ```
 > *VENV* Desactivado
 > ```bash
->   PS C:\Users\...\PACD_M2_T2> ... <comandos>
+>   PS C:\Users\...\PACD_M2_T2> ... [comandos]
 > ```
 
 > [!CAUTION]
