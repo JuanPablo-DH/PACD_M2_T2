@@ -34,7 +34,7 @@ Programación avanzada para ciencia de datos.
 > 
 > **Paso 3** - *Crear un entorno virtual *(VENV)* para el proyecto.*  
 > - Ejecutar desde la terminal *CMD/SHELL* **ubicada en la carpeta del proyecto**.   
-> **Comando** → *py -m venv [nombre_env]*  
+> **Comando** → *py -m venv [nombre_venv]*  
 > ```bash
 >   py -m venv venv_M2T2
 > ```
