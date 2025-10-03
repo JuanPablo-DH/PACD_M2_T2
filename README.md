@@ -19,7 +19,20 @@ Programación avanzada para ciencia de datos.
 > *SQLite*
 
 > [!IMPORTANT]
-> ### **Pasos para ejecutar la notebook desde *Visual Studio Code***  
+> ## **Extensiones necesarias para *Visual Studio Code***
+> ```bash
+>   Jupyter
+>   Jupyter Cell Tags
+>   Jupyter Keymap
+>   Jupyter Notebook Renderers
+>   Jupyter Slide Show
+>   Pylance
+>   Python
+>   Python Debugger
+>   Python Environments
+>   (OPCIONAL) Black Formatter
+> ```
+> ## **Pasos para ejecutar la notebook desde *Visual Studio Code***  
 > **Paso 1** - *Clonar repositorio.*  
 > - **Comando** → *git clone [url_repositorio]*  
 > ```bash
